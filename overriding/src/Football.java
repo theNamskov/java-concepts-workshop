@@ -6,5 +6,18 @@
 
 public class Football extends Sports {
 
+    private String name = "Banjava FC";
+
+    private int teamSize = 15;
+
+    @Override
+    String getName() {
+        return name;
+    }
+
+    @Override
+    void getNumberOfTeamMembers() {
+        System.out.println(teamSize+" players");
+    }
 }
 
